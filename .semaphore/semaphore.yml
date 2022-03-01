@@ -27,13 +27,13 @@ blocks:
       jobs:
         - name: Unit tests
           commands:
-            - cd martar_demo
+            - cd martor_demo
             - python3 manage.py makemigrations
             - python3 manage.py migrate
             - python3 manage.py test
         - name: Checklist
           commands:
-            - cd morta_demo
+            - cd martor_demo
             - python3 manage.py check --deploy
         - name: Style check
           commands:
