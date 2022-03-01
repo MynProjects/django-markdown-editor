@@ -1,4 +1,4 @@
-# app/test_Posts.py
+# app/testPosts.py
 from django.test import TestCase
 from app.models import Post
 
